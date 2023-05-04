@@ -1,0 +1,165 @@
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.2em;
+    color: #444;
+}
+
+
+.navbar .brand {
+    color: #e74c3c;
+}
+
+.navbar .nav li{
+    font-size: 15px;
+}
+
+.navbar .nav > .active > a {
+    border-bottom: solid 2px #e74c3c;
+}
+
+@media (min-width:768px) {
+    #separator {
+        width: 30px;
+        background: transparent url('../img/light-page_shadow.png') repeat-y;
+        padding: 0px 0px 0px 0px;
+        left: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    #separator {
+        display: none !important;
+    }
+}
+
+#separator .top_shadow {
+    background: transparent url('../img/light-page_shadow_top.png') no-repeat top left;
+    height: 100px;
+    width: 30px;
+}
+
+#separator .bottom_shadow {
+    background: transparent url('../img/light-page_shadow_bottom.png') no-repeat bottom left;
+    height: 100px;
+    width: 30px;
+    position: relative;
+    bottom: 0px;
+
+}
+
+span.tagline {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    text-align: justify;
+    letter-spacing: -0.05em;
+    color: #1f1f1f;
+    display: block;
+    margin: 20px 0px 30px 0px;
+}
+
+div#slider {
+    overflow: hidden;
+    width: 621px;
+    height: 680px;
+}
+
+div.slide {
+    position: relative;
+    height: 675px;
+    top: 0px;
+    left: 0px;
+}
+
+div.slide .background {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 0px;
+}
+
+div.slide .foreground {
+    position: absolute;
+    z-index: 2;
+    top: 70px;
+    left: 160px;
+}
+
+div.slide .foreground img,
+div.slide .foreground iframe,
+div.slide .background img,
+div.slide .background iframe {
+    position: absolute;
+}
+
+div.slide .background.iphone-black,
+div.slide .background.iphone-white {
+    width: 380px;
+    height: 555px;
+    background: url('../img/iphone-black-back.png') no-repeat;
+}
+
+div.slide .background.iphone-white {
+    background: url('../img/iphone-white-back.png') no-repeat;
+}
+
+div.slide .background.iphone-black img,
+div.slide .background.iphone-black iframe,
+div.slide .background.iphone-white img,
+div.slide .background.iphone-white iframe {
+    width: 213px;
+    height: 320px;
+    top: 85px;
+    left: 80px;
+}
+
+div.slide .foreground.iphone-black,
+div.slide .foreground.iphone-white {
+    width: 386px;
+    height: 597px;
+    background: url('../img/iphone-black-front.png') no-repeat;
+}
+
+div.slide .foreground.iphone-white {
+    background: url('../img/iphone-white-front.png') no-repeat;
+}
+
+div.slide .foreground.iphone-black img,
+div.slide .foreground.iphone-black iframe,
+div.slide .foreground.iphone-white img,
+div.slide .foreground.iphone-white iframe {
+    width: 230px;
+    height: 345px;
+    top: 95px;
+    left: 82px;
+}
+
+/* Slider Navigation */
+div.echo-nav {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 621px;
+    z-index: 50;
+}
+
+div.echo-nav a {
+    text-indent: -999999px;
+    background: #ccc;
+    height: 4px;
+    width: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    -webkit-transition: background 0.2s ease-in;
+    -moz-transition: background 0.2s ease-in;
+    -o-transition: background 0.2s ease-in;
+    transition: background 0.2s ease-in;
+}
+
+div.echo-nav a:hover {
+    background: #aaa;
+}
+
+div.echo-nav a.active {
+    background: #777;
+}
