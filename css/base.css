@@ -10,11 +10,11 @@ body {
     color: #e74c3c;
 }
 
-.navbar .nav li{
+.navbar .nav li {
     font-size: 15px;
 }
 
-.navbar .nav > .active > a {
+.navbar .nav>.active>a {
     border-bottom: solid 2px #e74c3c;
 }
 

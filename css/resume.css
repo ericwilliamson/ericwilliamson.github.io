@@ -1,9 +1,9 @@
 ul.nav li {
-    margin:0;
+   margin: 0;
 }
 
 #wrapper {
-   max-width: 700px;
+   max-width: 900px;
    margin: 60px auto 30px;
    padding: 0 60px 60px 60px;
    position: relative;
@@ -20,7 +20,6 @@ li {
 }
 
 p {
-   text-align: justify;
    font-size: 13px;
 }
 
@@ -37,7 +36,12 @@ a:hover {
    text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    font-weight: normal;
 }
 
@@ -76,7 +80,7 @@ ul#recommends li {
    clear: both;
 }
 
-ul#recommends li > h3 {
+ul#recommends li>h3 {
    background: #fafafa;
    color: #ccc;
    padding-left: 5px;
@@ -211,30 +215,35 @@ div.section ul li {
 
 div.section ul li p {
    float: right;
-   width: 57%;
-   margin-bottom: 25px;
+   width: 70%;
 }
 
-.details{
+.details {
    float: left;
-   width: 40%
+   width: 30%
 }
 
-.details h3{
+.details h3 {
    line-height: 1.2em;
-   margin:0;
+   margin: 0;
 }
 
-.details h4{
-   font-size:13px;
-   margin:0;
+.details h4 {
+   font-size: 13px;
+   margin: 0;
 }
 
 .details h5 {
    font-style: italic;
-   font-size:0.83em;
-   margin:0;
-   padding:0;
+   font-size: 0.83em;
+   margin: 0;
+   padding: 0;
+}
+
+.details div.section ul li p {
+   float: right;
+   width: 70%;
+   margin-bottom: 15px;
 }
 
 ul#attributesList {
@@ -242,5 +251,5 @@ ul#attributesList {
 }
 
 ul#attributesList li {
-   margin:0 0 10px 0;
+   margin: 0 0 10px 0;
 }
